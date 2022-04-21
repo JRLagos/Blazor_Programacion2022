@@ -6,4 +6,20 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="Pages\Usuarios\Usuario.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\Usuarios\Usuario.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Pages\Usuarios\Usuario.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Pages\Usuarios\Usuario.razor" />
+  </ItemGroup>
+
 </Project>
